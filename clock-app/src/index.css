@@ -9,6 +9,7 @@ body{
 }
 
 .clock-container{
+  align-items: center;
   backdrop-filter: blur(10px);
 }
 .main-content {
@@ -19,10 +20,10 @@ body{
 }
 
 .clock{
-  color: white;
-  font-size: 20rem;
+  color: rgb(17, 22, 63);
+  font-size: 15rem;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Courier-Oblique;
   text-align: center;
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@ body{
 }
 
 .app-container {
+  align-items: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,6 +42,7 @@ body{
 }
 
 .navigation-bar {
+  align-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -97,4 +100,78 @@ body{
 
 .todo-button:hover {
   background: rgba(5, 5, 93, 0.683);
+}
+
+.to-do{
+  font-family: times;
+  text-align: center;
+  margin-top: -200px;
+  font-size: 1.5rem;
+}
+.input{
+  font-family: times;
+  text-align: center;
+  margin-top: -400px;
+  font-size: 1rem;
+  color: black;
+}
+.add{
+  font-family: Times;
+  font-size: 1rem;
+  color: white;
+  padding: 10px 15px;
+  background-color: rgba(79, 79, 223, 0.683);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+input[type="text"]{
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px black;
+  border-radius: 5px;
+  color: black;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 1rem;
+  font-weight: normal;
+  padding : 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  border: 3px black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 4px; 
+
+}
+.delete-button{
+  background-color: rgba(13, 153, 104, 0.695);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+ 
+  color: white;
+  white-space: nowrap; 
+  margin-left: auto;  
+  flex-shrink: 0;   
+}
+.moveDown, .moveUp{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(79, 79, 223, 0.683);
+  color: white;
+  white-space: nowrap; 
+  margin-left: auto;  
+  flex-shrink: 0;    
+}
+
+.text{
+  flex: 1;
 }
