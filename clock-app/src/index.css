@@ -175,3 +175,40 @@ li{
 .text{
   flex: 1;
 }
+
+.timer-container{
+  align-items: center;
+  padding: 0.5rem 1rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(151, 169, 198, 0.32);
+  border-radius: 20px;
+}
+.timer{
+  font-size: 5rem;
+  margin-top:10px;
+  
+  align-items: center;
+}
+.display-time{
+  font-size: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+.hours-placeholder{
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
+.minutes-placeholder{
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.seconds-placeholder{
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}

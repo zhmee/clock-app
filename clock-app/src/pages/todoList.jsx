@@ -21,6 +21,7 @@ function deleteItem(index){
   const updatedTasks = tasks.filter((_, i) => i !==index);
   setTasks(updatedTasks);
 }
+
 function moveUp(index){
   if (index > 0){
     const updatedTasks = [...tasks];
