@@ -16,18 +16,16 @@ Welcome to My Productivity Website!
 
 
 Features
-1. Clock Tab
-A real-time clock that keeps you updated with the current time.
+1. Clock Tab: A real-time clock that keeps you updated with the current time.
 Easy to read with a clean and minimalistic design.
 Helps you keep track of the time while working or managing tasks.
 
-3. To-Do List Tab
+3. To-Do List Tab: 
 Add, remove, and mark tasks as completed.
 Organize your daily tasks with checkboxes.
 Helps you stay on top of your priorities.
 
-5. Timer Tab
-Set timers for any task or activity you want to time.
+5. Timer Tab: Set timers for any task or activity you want to time.
 Ideal for Pomodoro technique or for time-based tasks.
 Allows you to customize the timer duration and get notified when it finishes.
 
